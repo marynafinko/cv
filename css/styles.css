@@ -1,0 +1,235 @@
+/*******************Navbar styles******************************/
+
+.navbar{ 
+    background:#5b9594;
+    color:white;
+}
+/*Styling menu buttons + home button*/
+.nav-link , .navbar-brand{ 
+    color: #f4f4f4; cursor: pointer;
+}
+
+.nav-link{ 
+    margin-right: 1em !important;
+    text-align: center;
+}
+
+.nav-link:hover{ 
+    background: #f4f4f4; color: #387a7d;; 
+}
+
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+
+.navbar-toggler{  
+    /* background:#fff !important; */
+    border: 1px solid white;
+}
+
+
+/*******************Header styles******************************/
+
+.header {
+    background-image: url('../images/header.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay { /* Making the header image a bit blurry*/
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left:0;
+    top:0;
+    background: rgba(244,244,244,0.59);
+}
+
+.description {
+    position: absolute;
+    top:30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color:#387a7d;
+}
+
+.description button {
+    border:1px; solid #387a7d;
+    background: #387a7d;
+    color:#fff;
+}
+
+.maincontainer {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/*******************About styles******************************/
+
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    background-color: #becfd4;
+    padding-bottom: 100px;
+}
+
+.about h1 {
+    color:#387a7d;
+    margin: 2em;
+    text-align: center;
+}
+
+.about img {
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about span {
+    display:block;
+    color:#888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #387a7d;
+}
+
+.about .desc p{
+    line-height: 2;
+    color:#888;
+}
+
+/*******************Experience styles******************************/
+.experience {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.experience h1 {
+    color:#387a7d;
+    margin: 1.5em;
+    text-align: center;
+}
+
+.job {
+    border: 1px solid #387a7d;
+    box-shadow: 10px 5px 5px #387a7d; 
+    padding: 5%;
+    width:80%;
+    margin:auto;
+    margin-bottom: 5%;
+    padding: 2%;    
+}
+
+.job:hover{
+    border: 1px solid #888;
+    box-shadow: 10px 5px 5px #888;   
+
+}
+.company {
+    color:#4f493b;
+    font-weight: bold;
+}
+.years {
+    color:#888;
+    font-weight: bold;
+}
+
+/*******************Education styles******************************/
+.education-container{
+    background-color: #becfd4;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.education {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    background-color: #becfd4;
+    text-align: center;
+}
+
+.education-container h1{
+    color:#387a7d;
+    margin: 1.5em;
+    text-align: center;
+
+}
+
+.education .logo {
+    display: block;
+    margin: 20px;
+}
+.education, .certificates{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 2%;   
+    display: flex;
+}
+
+.education .piece {
+    border-radius: 60px 10px;
+    border:  1px solid #387a7d;
+    display: flex;
+    height: 90%;
+    width:90%;
+    margin-bottom: 30px;
+    padding: 10px;
+    justify-content: space-evenly;
+    box-shadow: 10px 5px 5px #387a7d;
+    overflow: hidden;
+}
+
+#study {
+    margin: 0;
+    padding: 0;
+}
+
+#degree {
+    font-style: italic ;
+}
+
+/*******************Certificates styles******************************/
+
+.certificates .piece {
+    display: block;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    border-radius: 15px 50px;
+    border:  1px solid #387a7d;
+    box-shadow: 10px 5px 5px #387a7d;
+    width:90%
+}
+
+#certificates h1{
+    color:#387a7d;
+    margin: 1.5em;
+    text-align: center;
+}
+.courseDesc {
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #387a7d;
+}
+
+.title {
+    height: 50%;
+}
+
+/*******************Footer styles******************************/
+.footer{
+    background:#5b9594;
+    color:white;
+    height: 50px;
+}
